@@ -2,6 +2,11 @@
 
 let numeroUtente = Number.parseInt(prompt('inserisci un numero'));
 let lista = [];
+
+if(numeroUtente > 20 || numeroUtente < 0 || Number.isNaN(numeroUtente)){
+    numeroUtente = 10;
+    
+}
 for(let i= 0; i < numeroUtente; i++){
     lista = [];
     for(let i = 0; i < 10; i++){
