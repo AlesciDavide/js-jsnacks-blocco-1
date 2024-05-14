@@ -4,7 +4,7 @@ let numeriInteri = [5,10,3,6,7,5,5,5,5];
 
 let sommaNumeri = 0;
 
-for(i = 0; i < numeriInteri.length; i++){
+for(let i = 0; i < numeriInteri.length; i++){
     if(i % 2 != 0){
         sommaNumeri += numeriInteri[i];
     }
