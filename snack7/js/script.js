@@ -5,7 +5,7 @@ let lista = [];
 for(let i= 0; i < numeroUtente; i++){
     lista = [];
     for(let i = 0; i < 10; i++){
-        lista.push(Math.floor(Math.random() * 101)); 
+        lista.push(Math.floor(Math.random() * 100 + 1)); 
     }
     console.log(lista);
 }
